@@ -1,3 +1,7 @@
+# quest ordering is mainly based off release date. the information was taken from
+# http://runescape.wikia.com/wiki/List_of_quest_release_dates
+# quests are owned by Jagex
+
 ''' 0: number
 	1: name
 	2: skill req
@@ -11,8 +15,16 @@ quests.append([0,'',{},{},[],[]])
 quests.append([1,"Cook's Assistant",{},{},[],[]])
 quests.append([2,'Demon Slayer',{},{},[],[]])
 quests.append([3,'The Restless Ghost',{},{},[],[]])
-# quests.append([4,'Discontinued: Romeo & Juliet',{},{},[],[]])
-# quests.append([5,'Discontinued: Sheep Shearer',{},{},[],[]])
+# quests.append([4,'Gunnar's Ground',{},{},[],[]]) #used to be Romeo and Juliet
+
+#note: this quest was released in between quest 166 and 167, but the indexing
+#(at least on rs wiki) got messed up because sheep shearer and witch's potion
+#became miniquests. because of that, i'm going to put these first two quests in
+#the index where these discontinued quests would have gone, but this is
+#arbitrary and is just to make sure the numbers turn out okay
+# quests.append([5,'Discontinued: Sheep Shearer',{},{},[],[]])#now a miniquest
+# quests.append([5,'Quiet Before the Swarm',{},{},[],[]])
+
 quests.append([6,'Shield of Arrav',{},{},[],[]])
 # quests.append([7,'Ernest the Chicken',{},{},[],[]])
 # quests.append([8,'Vampyre Slayer',{},{},[],[]])
@@ -20,7 +32,15 @@ quests.append([6,'Shield of Arrav',{},{},[],[]])
 # quests.append([10,'Stolen Hearts',{},{},[],[]])
 # quests.append([11,"What's Mine is Yours",{},{},[],[]])
 # quests.append([12,'The Death of Chivalry',{},{},[],[]])
-# quests.append([13,'Discontinued: Witch's Potion',{},{},[],[]])
+
+#note: this quest was released in between quest 166 and 167, but the indexing
+#(at least on rs wiki) got messed up because sheep shearer and witch's potion
+#became miniquests. because of that, i'm going to put these first two quests in
+#the index where these discontinued quests would have gone, but this is
+#arbitrary and is just to make sure the numbers turn out okay
+# quests.append([13,'Discontinued: Witch's Potion',{},{},[],[]])#now a miniquest
+# quests.append([13,'Love Story',{},{},[],[]])
+
 # quests.append([14,"The Knight's Sword",{},{},[],[]])
 quests.append([15,'Goblin Diplomacy',{},{},[],[]])
 quests.append([16,"Pirate's Treasure",{},{},[],[]])
@@ -178,8 +198,8 @@ quests.append([150,'The Chosen Commander',{'AGILITY':46,'STRENGTH':46,'THIEVING'
 # quests.append([164,'Buyers and Cellars',{},{},[],[]])
 # quests.append([165,'Fairy Tale III - Orks Rift',{},{},[],[]])#
 # quests.append([166,'Elemental Workshop III',{},{},[],[]])
-quests.append([167,'',{},{},[],[]])#unclear what quest goes here
-quests.append([168,'',{},{},[],[]])#unclear what quest goes here
+# quests.append([167,'A Void Dance',{},{},[],[]])#see entries 5 and 13
+# quests.append([168,'The Void Stares Back',{},{},[],[]])#see entires 5 and 13
 # quests.append([169,'Do No Evil',{},{},[],[]])
 # quests.append([170,'King of the Dwarves',{},{},[],[]])
 # quests.append([171,'The Prisoner of Glouphrie',{},{},[],[]])
