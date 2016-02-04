@@ -26,6 +26,7 @@ def Get_Req(nQuest,bSRec=True,bQRec=True):
 			QReq[:] = (value for value in QReq if value != q) #removes all instances of q from list
 	return SReq
 
+#this is mostly an internal function for Get_Req
 def Combine_SReq(d1,d2):
 	d3 = {}
 	for key in d1:
@@ -39,3 +40,14 @@ def Combine_SReq(d1,d2):
 		else:
 			d3[key]=d2[key]
 	return d3
+
+#UNTESTED; pseudocode. Quest data not functional at the moment.
+# def lFindNotCompleted(nQuest):
+	#find all quests with nQuest as requirement
+		#put each of those in lists lIncomplete and lUnchecked
+	#while lUnchecked is not empty
+		#get one of the quests from lUnchecked
+			#find all quests with THAT quest as requirement that aren't yet in lIncomplete
+				#put each of those into lIncomplete and lUnchecked
+			#remove the quest from lUnchecked
+	#return lIncomplete
