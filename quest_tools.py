@@ -1,4 +1,4 @@
-import RS_Quest_Data as data
+import quest_data as data
 
 def Get_Req(nQuest,bSRec=True,bQRec=True):
 	#load skills from input quest
