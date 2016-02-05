@@ -10,8 +10,8 @@ Developed in Python 2.
 
 ## Goals
 - quest data entry
- - [X] enter data for quests 1 thru 50
- - [ ] enter data for quests 51 thru 99
+ - [x] enter data for quests 1 thru 50
+ - [x] enter data for quests 51 thru 99
  - [ ] enter data for quests 100 thru 140
  - [ ] enter data for quests 141 thru latest quest
 - [ ] write a smart completed-quests-asker tool
