@@ -15,7 +15,7 @@ quests.append([0,'',{},{},[],[]])
 quests.append([1,"Cook's Assistant",{},{},[],[]])
 quests.append([2,'Demon Slayer',{},{},[],[]])
 quests.append([3,'The Restless Ghost',{},{},[],[]])
-# quests.append([4,'Gunnar's Ground',{},{},[],[]]) #used to be Romeo and Juliet
+quests.append([4,"Gunnar's Ground",{'CRAFTING':5},{},[],[]]) #used to be Romeo and Juliet
 
 #note: this quest was released in between quest 166 and 167, but the indexing
 #(at least on rs wiki) got messed up because sheep shearer and witch's potion
@@ -23,15 +23,15 @@ quests.append([3,'The Restless Ghost',{},{},[],[]])
 #the index where these discontinued quests would have gone, but this is
 #arbitrary and is just to make sure the numbers turn out okay
 # quests.append([5,'Discontinued: Sheep Shearer',{},{},[],[]])#now a miniquest
-# quests.append([5,'Quiet Before the Swarm',{},{},[],[]])
+quests.append([5,'Quiet Before the Swarm',{'ATTACK':35,'STRENGTH':42},{},[9,88],[]])
 
 quests.append([6,'Shield of Arrav',{},{},[],[]])
-# quests.append([7,'Ernest the Chicken',{},{},[],[]])
-# quests.append([8,'Vampyre Slayer',{},{},[],[]])
-# quests.append([9,'Imp Catcher',{},{},[],[]])
-# quests.append([10,'Stolen Hearts',{},{},[],[]])
-# quests.append([11,"What's Mine is Yours",{},{},[],[]])
-# quests.append([12,'The Death of Chivalry',{},{},[],[]])
+quests.append([7,'Ernest the Chicken',{},{},[],[]])
+quests.append([8,'Vampyre Slayer',{},{},[],[]])
+quests.append([9,'Imp Catcher',{},{},[],[]])
+quests.append([10,'Stolen Hearts',{},{},[],[]])
+quests.append([11,"What's Mine is Yours",{'SMITHING':5},{},[],[]])
+quests.append([12,'The Death of Chivalry',{},{},[],[]])
 
 #note: this quest was released in between quest 166 and 167, but the indexing
 #(at least on rs wiki) got messed up because sheep shearer and witch's potion
@@ -39,9 +39,9 @@ quests.append([6,'Shield of Arrav',{},{},[],[]])
 #the index where these discontinued quests would have gone, but this is
 #arbitrary and is just to make sure the numbers turn out okay
 # quests.append([13,'Discontinued: Witch's Potion',{},{},[],[]])#now a miniquest
-# quests.append([13,'Love Story',{},{},[],[]])
+quests.append([13,'Love Story',{'MAGIC':77,'CONSTRUCTION':68,'SMITHING':68,'CRAFTING':67},{},[104,100],[]])
 
-# quests.append([14,"The Knight's Sword",{},{},[],[]])
+quests.append([14,"The Knight's Sword",{'MINING':10},{},[],[]])
 quests.append([15,'Goblin Diplomacy',{},{},[],[]])
 quests.append([16,"Pirate's Treasure",{},{},[],[]])
 quests.append([17,'Dragon Slayer',{'QUEST POINTS':33},{'MAGIC':33,'PRAYER':43},[],[]])
@@ -51,18 +51,18 @@ quests.append([20,"Witch's House",{},{},[],[]])
 quests.append([21,"Merlin's Crystal",{},{},[],[]])
 quests.append([22,"Heroes' Quest",{'COOKING':53,'FISHING':53,'HERBLORE':25,'MINING':50,'DEFENCE':25,
 	'QUEST POINTS':56},{},[6,19,17,21,18],[]])
-# quests.append([23,'Scorpion Catcher',{},{},[],[]])
+quests.append([23,'Scorpion Catcher',{'PRAYER':31},{},[],[]])
 quests.append([24,'Family Crest',{'CRAFTING':40,'SMITHING':40,'MINING':40,'MAGIC':59},{},[],[]])
-# quests.append([25,'Tribal Totem',{},{},[],[]])
+quests.append([25,'Tribal Totem',{'THIEVING':21},{},[],[]])
 quests.append([26,'Fishing Contest',{'FISHING':10},{},[],[]])
-# quests.append([27,"Monk's Friend",{},{},[],[]])
-# quests.append([28,'Temple of Ikov',{},{},[],[]])
-# quests.append([29,'Clock Tower',{},{},[],[]])
-# quests.append([30,'Holy Grail',{},{},[],[]])
+quests.append([27,"Monk's Friend",{},{},[],[]])
+quests.append([28,'Temple of Ikov',{'THIEVING':42,'RANGED':40},{},[],[]])
+quests.append([29,'Clock Tower',{},{},[],[]])
+quests.append([30,'Holy Grail',{'ATTACK':30},{},[21],[]])
 quests.append([31,'Tree Gnome Village',{},{},[],[]])
 quests.append([32,'Fight Arena',{},{},[],[]])
 quests.append([33,'Hazeel Cult',{},{},[],[]])
-# quests.append([34,'Sheep Herder',{},{},[],[]])
+quests.append([34,'Sheep Herder',{},{},[],[]])
 quests.append([35,'Plague City',{},{},[],[]])
 quests.append([36,'Sea Slug',{'FIREMAKING':30},{},[],[]])
 quests.append([37,'Waterfall Quest',{},{},[],[]])
@@ -71,10 +71,10 @@ quests.append([39,'Jungle Potion',{'HERBLORE':3},{},[18],[]])
 quests.append([40,'The Grand Tree',{},{},[],[31]])
 quests.append([41,'Shilo Village',{'CRAFTING':20,'AGILITY':32},{'PRAYER':43},[39],[]])
 quests.append([42,'Underground Pass',{'RANGED':25},{'MAGIC':34,'AGILITY':50,'PRAYER':43,'THIEVING':50},[38],[]])
-# quests.append([43,'Observatory Quest',{},{},[],[]])
-# quests.append([44,'The Tourist Trap',{},{},[],[]])
-# quests.append([45,'Watchtower',{},{},[],[]])
-# quests.append([46,'Dwarf Cannon',{},{},[],[]])
+quests.append([43,'Observatory Quest',{},{},[],[]])
+quests.append([44,'The Tourist Trap',{'FLETCHING':10,'SMITHING':20},{},[],[]])
+quests.append([45,'Watchtower',{'HERBLORE':14,'MAGIC':14,'TTHIEVING':15,'AGILITY':25,'MINING':40},{},[],[]])
+quests.append([46,'Dwarf Cannon',{},{},[],[]])
 quests.append([47,'Murder Mystery',{},{},[],[]])
 quests.append([48,'The Dig Site',{'THIEVING':25,'AGILITY':10,'HERBLORE':10},{},[],[]])
 quests.append([49,"Gertrude's Cat",{},{},[],[]])
